@@ -10,14 +10,11 @@ let lovescore =(Math.round(Math.random() * 100) + 1);
 
 if (lovescore > 70) {
   alert("your lovescore is "  +  lovescore  + "%. your love is excellet");
-}
-if (lovescore < 70 && lovescore > 50) {
+}else if (lovescore < 70 && lovescore > 50) {
   alert("your lovescore is " + lovescore + "% your love is average");
 }
-if (lovescore < 50) {
- alert("your lovescore is  " + lovescore + " %.your love is poor "); 
 } else {
- alert("your lovescore is " + lovescore + "%."); 
+ alert("your lovescore is " + lovescore + "%.your love is poor"); 
 }
 
  
