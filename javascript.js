@@ -13,8 +13,8 @@ if (lovescore > 70) {
 }else if (lovescore < 70 && lovescore > 50) {
   alert("your lovescore is " + lovescore + "% your love is average");
 }
-} else {
- alert("your lovescore is " + lovescore + "%.your love is poor"); 
+ else {
+ alert("your lovescore is " + lovescore + "%. your love poor"); 
 }
 
  
